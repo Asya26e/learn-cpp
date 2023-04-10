@@ -105,7 +105,7 @@ protected:
 public:
 	string type;
 	
-	clRecord(string nm2, unsigned int prod, float acr, string typ,  clData dt2);
+	clRecord(string nm2, unsigned int prod, float acr, string typ,  clData* dt2);
 	clRecord(struct Record* record);
 	string get_name() { return name; }
 	string get_type() { return type; }
@@ -114,18 +114,18 @@ public:
 
 	float get_acreage() { return acreage; }
 
-	unsigned short get_Data() { return Data.getData(); }
+	clData get_Data() { return Data.getData(); }
 
 	void get_clData();
 };
 
 
-clRecord::clRecord(string nm2, unsigned int prod, float acr, string typ, clData dt2) {
+clRecord::clRecord(string nm2, unsigned int prod, float acr, string typ, clData* dt2) {
 	name = nm2;
 	type = typ;
 	productivity = prod;
 	acreage = acr;
-	Data = dt2;
+	Data = *dt2;
 }
 
 clRecord::clRecord(struct Record* record) {
@@ -156,11 +156,10 @@ int main() {
 	clData D2(MD);
 	clData D1(12, 03, 12);
 	clData* D5;
-	clRecord RC ( "Соя", "Б", 1300, 45, { 03, 03, 2022 } );
+	clData* d1 = new clData(03, 03, 2022), * d2 = new clData(03, 04, 2022), * d3 = new clData(04, 03, 2022);
+	clRecord* RC = new clRecord("Соя", 1300, 45, "Б", d1);
 	clRecord RC1(Record);
-	clRecord Rarr[3] = {
-		{  "Соя", "Б", 1300, 45, { 03, 03, 2022 }} , {  "Чумиза", "З", 8000, 17, { 03,04,2022 }}, { "Рис", "З", 25650, 24, { 04,03,2022 } }
-	};
+	clRecord* Rarr[3] = {new clRecord("Соя", 1300, 45, "Б", d1),  new clRecord("Чумиза", 8000, 17, "З", d2),  new clRecord("Рис", 25650, 24, "З", d3)};
 	
 
 
