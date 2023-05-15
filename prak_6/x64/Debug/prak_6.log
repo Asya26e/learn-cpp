@@ -1,0 +1,9 @@
+﻿  prak_6.cpp
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(584,26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(668,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(707,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(708,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(709,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(718,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\prak_6\prak_6.cpp(882,11): warning C4930: clRecord RC1(Record): функция с прототипом не вызвана (предполагалось определение переменной?)
+  prak_6.vcxproj -> C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_6\x64\Debug\prak_6.exe
