@@ -1,0 +1,8 @@
+﻿  prak_4.cpp
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\prak_4\prak_4.cpp(61,26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\prak_4\prak_4.cpp(145,37): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\prak_4\prak_4.cpp(184,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\prak_4\prak_4.cpp(185,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\prak_4\prak_4.cpp(186,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\prak_4\prak_4.cpp(195,42): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  prak_4.vcxproj -> C:\Users\vgera\Documents\Visual Studio 2022\prog\prak_4\x64\Debug\prak_4.exe
